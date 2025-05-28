@@ -8,7 +8,7 @@ const TechIconCardExperience = ({ model }: { model: any }) => {
   const scene = useGLTF(model.modelPath);
 
   useEffect(() => {
-    if (model.name === "Interactive Developer") {
+    if (model.name === "Business Strategy") {
       //@ts-ignore
       scene.scene.traverse((child) => {
         if (child.isMesh) {
@@ -32,8 +32,8 @@ const TechIconCardExperience = ({ model }: { model: any }) => {
       />
       <Environment preset="city" />
 
-      {/* 
-        The Float component from @react-three/drei is used to 
+      {/*
+        The Float component from @react-three/drei is used to
         create a simple animation of the model floating in space.
         The rotationIntensity and floatIntensity props control the
         speed of the rotation and float animations respectively.

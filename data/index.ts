@@ -33,8 +33,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Cutting-edge AI Tech Stack",
-    description: "Microsoft Copilot · GenAI · NLP · Strategy & Automation",
+    title: "My tech stack",
+    description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -54,7 +54,7 @@ export const gridItems = [
   {
     id: 5,
     title: "On a mission to redefine digital workflows using AI.",
-    description: "Driven by impact, powered by innovation.",
+    description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -79,8 +79,8 @@ export const projects = [
     id: 1,
     title: "Copilot for Pharma CRM",
     des: "Custom Microsoft Copilot solution to automate data workflows and insight generation for a global pharma client.",
-    img: "/copilot.png",
-    iconLists: ["/azure.svg", "/copilot.svg", "/power.svg"],
+    img: "/pharmacrm.png",
+    iconLists: ["/azure.png", "/copilot.svg", "/powerbi.svg"],
     link: "private",
   },
   {
@@ -88,15 +88,15 @@ export const projects = [
     title: "TeamSync AI",
     des: "AI-powered team collaboration platform with group chat, file sharing, and project management.",
     img: "/chat.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/openai.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/chatgpt.svg"],
     link: "https://teamsync-ai.saumyasmriti.vercel.app",
   },
   {
     id: 3,
-    title: "Electric Vehicles in India — Research Paper",
+    title: "Electric Vehicles in India",
     des: "Techno-economic study on EV adoption with policy recommendations, in collaboration with UPEC Paris.",
     img: "/ev.png",
-    iconLists: ["/research.svg", "/india.svg"],
+    iconLists: ["/research.png", "/strategy.png"],
     link: "private",
   },
   {
@@ -104,7 +104,7 @@ export const projects = [
     title: "Mentorship Platform (Topmate)",
     des: "One-on-one mentorship at scale with a focus on GenAI tools, career strategy, and interviews.",
     img: "/topmate.png",
-    iconLists: ["/topmate.svg", "/mentor.svg"],
+    iconLists: ["/guidance.png", "/consulting.png"],
     link: "https://topmate.io/saumyasmriti",
   },
 ];
