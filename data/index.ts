@@ -1,15 +1,19 @@
+// === Navigation ===
 export const navItems = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
+  { name: "Services", link: "#services" },
   { name: "Projects", link: "#projects" },
+  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
-  { name: "Skills", link: "#skills" },
 ];
 
+// === Hero Grid Items ===
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "Collaboration-first consulting with clear communication and results.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +23,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Available across global time zones for seamless client engagement.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,8 +33,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Cutting-edge AI Tech Stack",
+    description: "Microsoft Copilot · GenAI · NLP · Strategy & Automation",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,7 +43,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "AI Strategist & Thought Leader.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -47,11 +51,10 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "On a mission to redefine digital workflows using AI.",
+    description: "Driven by impact, powered by innovation.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -60,7 +63,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Let’s build something transformative together.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -70,158 +73,125 @@ export const gridItems = [
   },
 ];
 
+// === Featured Projects ===
 export const projects = [
   {
     id: 1,
-    title: "BazarBolt- Full Stack Ecommerce Platform",
-    des: "Watch Products, Order them and Owners can manage them easily",
-    img: "/bazarbolt.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://bazarbolt.avinashsuthar.in",
+    title: "Copilot for Pharma CRM",
+    des: "Custom Microsoft Copilot solution to automate data workflows and insight generation for a global pharma client.",
+    img: "/copilot.png",
+    iconLists: ["/azure.svg", "/copilot.svg", "/power.svg"],
+    link: "private",
   },
   {
     id: 2,
-    title: "Solvaotions - A digital Agency",
-    des: "Solvaotions is a digital agency website built with Next.js, Tailwind CSS, GSAP, ThreeJs and Framer Motion.",
-
-    img: "/solvao.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.solvaotions.tech",
+    title: "TeamSync AI",
+    des: "AI-powered team collaboration platform with group chat, file sharing, and project management.",
+    img: "/chat.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/openai.svg"],
+    link: "https://teamsync-ai.saumyasmriti.vercel.app",
   },
   {
     id: 3,
-    title: "TeamSync AI - Ai powered Chat App",
-    des: "Responsive Ai powered chat app with project collaborations, file sharing, Group chat and much more",
-    img: "/chat.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://teamsync-ai.avinashsuthar.in",
+    title: "Electric Vehicles in India — Research Paper",
+    des: "Techno-economic study on EV adoption with policy recommendations, in collaboration with UPEC Paris.",
+    img: "/ev.png",
+    iconLists: ["/research.svg", "/india.svg"],
+    link: "private",
   },
   {
     id: 4,
-    title: "Suthar Agriculture- Real farming monitoring and controller",
-    des: "Real time Data sharing and device controlling through mobile application for farmers with hardware device",
-    img: "/suthar.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "private",
+    title: "Mentorship Platform (Topmate)",
+    des: "One-on-one mentorship at scale with a focus on GenAI tools, career strategy, and interviews.",
+    img: "/topmate.png",
+    iconLists: ["/topmate.svg", "/mentor.svg"],
+    link: "https://topmate.io/saumyasmriti",
   },
 ];
 
+// === Testimonials ===
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Saumya on our GenAI initiative was transformative. Her ability to translate business goals into AI-driven workflows exceeded expectations.",
+    name: "Arjun Mehta",
+    title: "Senior Product Manager, Global Pharma Client",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Saumya brings a rare blend of technical depth and business acumen. Our Copilot implementation was seamless and impactful thanks to her leadership.",
+    name: "Neha Kapoor",
+    title: "Director of Digital Transformation, ZS",
   },
 ];
 
+// === Logos / Partner Companies (Placeholder for now) ===
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Microsoft",
+    img: "/ms.svg",
+    nameImg: "/msName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "ZS Associates",
+    img: "/zs.svg",
+    nameImg: "/zsName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Topmate",
+    img: "/topmate.svg",
+    nameImg: "/topmateName.svg",
   },
 ];
 
+// === Work Experience ===
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Associate Consultant - ZS",
+    desc: "Led GenAI & Copilot deployments for large-scale pharma clients, driving measurable business impact.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp-zs.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Mentor - Topmate",
+    desc: "Rated Top 1% mentor, helping professionals and students break into AI careers.",
+    className: "md:col-span-2",
+    thumbnail: "/exp-topmate.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Research Intern - UPEC Paris",
+    desc: "Published research on EV adoption in India and government policy recommendations.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp-upec.svg",
   },
 ];
 
+// === Social Media Links ===
 export const socialMedia = [
   {
-    id: 1,
+    id: "github",
     img: "/git.svg",
-    link: "github.avinashsuthar.in",
+    link: "https://github.com/saumyasmriti",
   },
   {
-    id: 2,
+    id: "twitter",
     img: "/twit.svg",
-    link: "x.avinashsuthar.in",
+    link: "https://x.com/SaumyaSmriti1",
   },
   {
-    id: 3,
+    id: "linkedin",
     img: "/link.svg",
-    link: "linkedin.avinashsuthar.in",
+    link: "https://linkedin.com/in/saumyasmriti",
   },
   {
-    id: 4,
+    id: "instagram",
     img: "/insta.svg",
-    link: "insta.avinashsuthar.in",
+    link: "https://instagram.com/saumyasmriti",
   },
 ];
