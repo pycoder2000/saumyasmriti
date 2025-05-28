@@ -44,7 +44,7 @@ const Hero = () => {
             className="text-center text-[36px] sm:text-4xl md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center antialiased leading-relaxed md:tracking-wider mb-4 text-sm md:text-sm lg:text-xl">
             Hi! I<span className="text-purple">&apos;</span>m{" "}
             <span className="text-purple">Saumya Smriti</span>, an AI Consultant
             and Business Strategist <br /> specializing in GenAI & Microsoft

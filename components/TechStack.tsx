@@ -14,7 +14,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Microsoft Copilot",
+    name: "Microsoft Copilot Copilot",
     modelPath: "/models/copilot.glb",
     scale: 6,
     rotation: [0, 0, 0],

@@ -175,11 +175,6 @@ export const workExperience = [
 // === Social Media Links ===
 export const socialMedia = [
   {
-    id: "github",
-    img: "/git.svg",
-    link: "https://github.com/saumyasmriti",
-  },
-  {
     id: "twitter",
     img: "/twit.svg",
     link: "https://x.com/SaumyaSmriti1",
@@ -188,10 +183,5 @@ export const socialMedia = [
     id: "linkedin",
     img: "/link.svg",
     link: "https://linkedin.com/in/saumyasmriti",
-  },
-  {
-    id: "instagram",
-    img: "/insta.svg",
-    link: "https://instagram.com/saumyasmriti",
   },
 ];
