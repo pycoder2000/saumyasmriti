@@ -30,7 +30,7 @@ const services = [
 
 const Services = () => {
     return (
-        <section className="min-h-screen text-center py-20 px-8 xl:px-0 flex flex-col justify-center">
+        <section id="services" className="min-h-screen text-center py-8 px-8 xl:px-0 flex flex-col justify-center scroll-mt-20">
             <span className="text-gray-400 text-lg max-w-lg mx-auto mb-2 capitalize flex items-center justify-center">
                 what we're offering
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="text-indigo-600 ml-3 w-6 h-6">
